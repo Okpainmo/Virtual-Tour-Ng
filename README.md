@@ -9,7 +9,7 @@ experiences are delivered through the frontend using modern web technologies.
 
 ### Frontend:
 
-● Built using React.js for responsive user interfaces.
+● Built using React.js for responsive user interfaces and Typescript for robustness, reliability etc (even though time constraint prevented us from implementing full typescript features). ● TailwindCSS and Headless UI for styling.
 ● Integrated with A-Frame for rendering VR content.
 ● Users can browse available virtual tours, choose destinations, and make payments.
 
