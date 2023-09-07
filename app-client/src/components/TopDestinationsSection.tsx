@@ -43,7 +43,7 @@ function TopDestinationsSection() {
             />
           </section>
           <section className='card-body pt-4 pb-6'>
-            <h3 className='poppins text-lg font-semibold'>Uli Waterfalls</h3>
+            <h3 className='poppins text-lg font-semibold'>Wli Waterfalls</h3>
           </section>
         </Link>
         <Link
