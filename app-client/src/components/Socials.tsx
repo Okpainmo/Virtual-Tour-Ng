@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Socials() {
   return (
     <div className='socials text--colors_primary'>

@@ -1,7 +1,5 @@
-import React from 'react';
 import DemoImage from '../../../assets/images/obudu-banner.jpg';
 // import { useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function AboutDestination() {
   //   const { destinationId } = useParams();

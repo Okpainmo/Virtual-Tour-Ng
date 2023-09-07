@@ -1,6 +1,6 @@
 import Logo from '../assets/images/logo_main.jpg';
 import { HiBars3BottomRight } from 'react-icons/hi2';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const userName = localStorage.getItem('userName');

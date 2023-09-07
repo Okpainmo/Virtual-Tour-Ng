@@ -18,7 +18,9 @@ function SignUpPage() {
     confirmPassword: '',
   });
 
-  async function createUser(e) {
+  async function createUser(
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) {
     e.preventDefault();
 
     if (
@@ -103,7 +105,7 @@ function SignUpPage() {
       <main className='login-page mx-3 px-3 pt-12 pb-16 my-20 sm:my-32 rounded border sm:w-[400px] sm:mx-auto'>
         <div className='flex sm:px-3 flex-col gap-8'>
           {/* <Link href='/'> */}
-          <Link href='/' className='mx-auto'>
+          <Link to='/' className='mx-auto'>
             <img className='w-[100px]' src={Logo} alt='brand-logo' />
           </Link>
           <p className='text-[14px] w-full mx-auto leading-7 text-center'>

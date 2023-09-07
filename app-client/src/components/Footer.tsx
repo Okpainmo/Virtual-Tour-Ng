@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo_main.jpg';
 import Socials from './Socials';
@@ -9,7 +8,7 @@ function Footer() {
     <footer className='border-t pt-16 pb-24 sm:py-16 px-3 sm:px-6 xl:px-16 mt-[150px] bg-slate-900 text-white'>
       <section className='flex flex-col lg:flex-row lg:flex-wrap justify-between'>
         <section className='mb-10 md:mb-20 w-[85%] lg:w-[20%] xl:w-[25%]'>
-          <Link href='/'>
+          <Link to='/'>
             <img className='w-[100px]' src={Logo} alt='brand-logo' />
           </Link>
           <div className='brand-brief text-[12px] mt-3 sm:mt-4 leading-[25px]'>

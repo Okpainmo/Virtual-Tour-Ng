@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import DemoImage1 from '../assets/images/obudu-banner.jpg';
 import DemoImage2 from '../assets/images/uli-waterfalls-banner.jpg';

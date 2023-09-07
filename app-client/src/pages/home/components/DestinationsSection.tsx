@@ -1,4 +1,3 @@
-import React from 'react';
 // import DestinationCard from './DestinationCard';
 import DemoImage1 from '../../../assets/images/obudu-banner.jpg';
 import DemoImage2 from '../../../assets/images/oshogbo-festival-banner.jpg';

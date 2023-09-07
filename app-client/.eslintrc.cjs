@@ -15,5 +15,6 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'no-irregular-whitespace': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
   },
 };

@@ -1,5 +1,3 @@
-import React from 'react';
-
 function NewsletterSection() {
   return (
     <div className='newsletter-section my-8 md:mt-20 lg:mt-0 sm:w-[450px] md:w-3/5 lg:w-[25%]'>

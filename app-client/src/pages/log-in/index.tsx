@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Logo from '../../assets/images/logo_main.jpg';
 import axios from 'axios';
@@ -16,7 +16,9 @@ function LogInPage() {
     document.title = 'Log In | Virtual Tours NG';
   }, []);
 
-  const logInUser = async (e) => {
+  const logInUser = async (
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) => {
     e.preventDefault();
 
     console.log(loginForm);
@@ -82,7 +84,7 @@ function LogInPage() {
       <main className='login-page pt-12 pb-16 my-20 sm:my-32 mx-3 px-3 rounded border sm:w-[400px] sm:mx-auto'>
         <div className='flex flex-col sm:px-3 gap-8'>
           {/* <Link href='/'> */}
-          <Link href='/' className='mx-auto'>
+          <Link to='/' className='mx-auto'>
             <img className='w-[100px]' src={Logo} alt='brand-logo' />
           </Link>
           <p className='text-[14px] w-full mx-auto leading-7 text-center'>
@@ -139,7 +141,7 @@ function LogInPage() {
             </button>
             <p className='text-center text-[12px] sm:text-[14px] mt-4'>
               New around here?{' '}
-              <Link href='/sign-up' className='underline text-blue-500'>
+              <Link to='/sign-up' className='underline text-blue-500'>
                 sign-up instead
               </Link>{' '}
             </p>

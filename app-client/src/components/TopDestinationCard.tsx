@@ -1,4 +1,3 @@
-import React from 'react';
 import DemoImage from '../assets/images/destination.jpg';
 import { Link } from 'react-router-dom';
 
