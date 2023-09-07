@@ -106,10 +106,10 @@ function Destinations() {
           </section>
           <section className='card-body pt-6 pb-10'>
             <h3 className='poppins text-lg font-semibold mb-3'>
-              Uli Waterfalls
+              Wli Waterfalls
             </h3>
             <div className='card-text'>
-              Embark on a virtual adventure to the breathtaking Uli Waterfall in
+              Embark on a virtual adventure to the breathtaking Wli Waterfall in
               Nigeria. Journey through the lush rainforest, listen to the
               soothing sounds of cascading water, and witness the natural beauty
               that surrounds this hidden gem.
